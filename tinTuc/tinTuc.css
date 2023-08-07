@@ -1,0 +1,162 @@
+.navbar > .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.price-buy:hover {
+    background: red !important;
+}
+
+body {
+    background: #d2d2d2;
+}
+
+.navbar > .container-fluid {
+    background: #d2d2d2;
+}
+
+
+.bg-light {
+    padding: 10px 0 0;
+    background-color: #ccc !important;
+}
+
+footer {
+    background-color: #ccc !important;
+}
+
+.d-flex {
+    background-color: rgba(0, 0, 0, 0.025) !important;
+    padding-top: 0 !important;
+}
+
+.text-md-start {
+    margin-top: 10px !important;
+    text-align: left !important;
+    /*border-top: 1px white solid;*/
+}
+
+.row {
+    padding-bottom: 10px;
+
+}
+
+
+#formfk textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#formfk input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background: darkorange;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#formfk input[type="submit"]:hover {
+    background: darkorange;
+}
+
+.noi-dung {
+    display: grid;
+    grid-template-areas:
+                    'mot hai'
+                    'mot ba';
+}
+
+.anhTinTuc {
+    grid-area: mot;
+}
+
+.tieuDeTinTuc {
+    grid-area: hai;
+}
+
+.tieuDeTinTuc p {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.moTaTinTuc {
+    grid-area: ba;
+    font-size: 11px;
+    margin-top: 0;
+}
+
+
+.tieuDeTinTuc, .moTaTinTuc {
+    margin-left: 5px;
+}
+
+#benPhai ul li a {
+    text-decoration: none;
+
+}
+
+#benPhai ul li {
+    list-style: none;
+}
+
+#benPhai {
+    text-align: center;
+}
+
+#benPhai ul, #benPhai {
+    padding-left: 0;
+}
+
+@media screen and (max-width: 992px) {
+    .moTaTinTuc {
+        display: none;
+    }
+
+    .navbar-light .navbar-toggler {
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-light .navbar-toggler {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .navbar-light .navbar-toggler {
+        margin-left: -1px;
+    }
+}
+
+#xemThem:hover {
+    text-decoration: underline white !important;
+}
+
+.nav-item a:hover {
+    transform: scale(1.1);
+    color: limegreen !important;
+    font-size: 17px;
+}
+
+.dropdown-item:hover {
+    border-radius: 5px;
+}
+
+#benPhai ul li:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+    background-color: #d2d2d2;
+}
+
+#benPhai ul li a:hover {
+    color: #57cb57 !important;
+
+}

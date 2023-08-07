@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="trangChu.css">
+    <link rel="stylesheet" href="../font/css/font-awesome.min.css">
+    <title>Assginment</title>
+</head>
+<body>
+<div id="wrapper">
+    <header style="background: transparent!important;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <div id="tren">
+                        <a class="navbar-brand" href="/trangChu.html"><img src="../images/logo.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown"
+                                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown"
+                         style="margin-top: 5px; font-size: 17px">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="trangChu/trangChu.html">Trang
+                                    chủ</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../gioiThieu/gioiThieu.html">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Đặt tour và thanh toán
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Hướng dẫn đạt tour</a></li>
+                                    <li><a class="dropdown-item" href="#">Điều kiện giao dịch chung</a></li>
+                                    <li><a class="dropdown-item" href="#">Phương thức thanh toán</a></li>
+                                    <li><a class="dropdown-item" href="#">Đặt tour và giao dịch tour</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../tour/trongNuoc.html">Tour trong nước</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../tour/nuocNgoai.html">Tour nước ngoài</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dịch vụ
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Dịch vụ nghỉ</a></li>
+                                    <li><a class="dropdown-item" href="#">Dịch vụ ăn uống</a></li>
+                                    <li><a class="dropdown-item" href="#">Cho thuê xe máy</a></li>
+                                    <li><a class="dropdown-item" href="#">Du vụ theo yêu cầu</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../gioiThieu/gioiThieu.html">Khách hàng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../tinTuc/tinTuc.html">Tin tức</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../gioiThieu/gioiThieu.html">Chính sách</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../lienHe/lienHe.html">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--    -->
+    <div class="banner">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../images/banner1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/banner2.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!--    -->
+    <div class="intro" style="text-align: center; background: limegreen; color:white;font-size: 15px;height: 100%">
+        <h5 style="padding-top: 10px; ">CÔNG TY TNHH TM & DL CÔ SƠN NỮ</h5>
+        <p style="text-align: center;margin-bottom: 0">
+            Công ty TNHH Thương Mại và Du Lịch Cô Sơn Nữ được thành lập vào ngày 25 tháng 9 năm 2019 lấy tên thương hiệu
+            là Cô Sơn Nữ travel,<br> chúng tôi không ngừng sáng tạo để hướng tới là một trong những công ty lữ hành hàng
+            đầu
+            Việt Nam Chúng tôi chuyên thiết kế tour du lịch nội địa và quốc tế,<br> ghép tour hàng ngày chất lượng cao,
+            booking khách sạn, vé máy bay, visa du lịch nhanh chóng hiệu quả. Với đội ngũ hướng dẫn viên chuyên nghiệp
+            nhiệt tình,<br> chúng tôi cam kết mang đến cho quý khách những trải nghiệm thú vị, những chuyến đi đáng nhớ.
+        </p>
+        <a href=""
+           style="margin-top: 0;line-height: 30px;font-size: 20px;text-decoration: none;color: white;font-weight: bold; padding: 0 5px; border-radius: 5px;"
+           id="xemThem">Xem
+            thêm</a>
+    </div>
+    <!--    -->
+    <div class="container">
+        <h2 style="text-align: center;color: limegreen;margin-top: 10px">TOUR TRONG NƯỚC NỔI BẬT</h2>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh1.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> HẢI PHÒNG - TUYÊN QUANG (2 Ngày/1
+                        Đêm - Khởi hành bằng Ô
+                        tô)</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh2.jpg" alt="" width="100%" style="padding: 10px">
+                </div>
+
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> HÀ NỘI - TUYÊN QUANG (2 Ngày/1 Đêm
+                        - Khởi hành bằng Ô
+                        tô)</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh3.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> MÙ CĂNG CHẢI - TĂM SUỐI BẢN LƯỚT 2
+                        NGÀY 1 ĐÊM</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh4.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> KHÁM PHÁ BIỂN ĐẢO NHA TRANG - ĐÀ
+                        LẠT 5 NGÀY 4 ĐÊM</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh5.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> HÀ NỘI – SUỐI LÊ NIN – PĂC BÓ 3
+                        NGÀY 2 ĐÊM</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh6.png" alt="" width="100%" style="padding: 10px">
+                </div>
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> HÀ NỘI - SAPA - CHINH PHỤC ĐỈNH
+                        FANSIPAN 3 NGÀY 2 ĐÊM</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh7.png" alt="" width="100%" style="padding: 10px">
+
+                </div>
+
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> MAI CHÂU - PÙ LUÔNG - SUỐI CÁ THẦN
+                        2 NGÀY 1 ĐÊM</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh8.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> HÀ NỘI - CẦN THƠ VÀ TỈNH MIỀN TÂY (
+                        4 ngày 3 đêm)</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+        </div>
+        <h2 style="text-align: center;color: limegreen;margin-top: 10px">TOUR NƯỚC NGOÀI NỔI BẬT</h2>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh9.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> Tour Châu Á : TOUR HONGKONG -
+                        DISNEYLAND 4 ngày 3 đêm</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh10.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> TOUR MỸ: ĐÔNG – TÂY HOA KỲ NEW
+                        YORK 8 NGÀY 7 ĐÊM</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh11.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> TOUR NGA: MATXCOVA – ST. PETERSBURG
+                        10N9D 8 NGÀY 7 ĐÊM</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh12.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> TOUR CHÂU ÂU: PHÁP – BỈ - HÀ LAN –
+                        ĐỨC 9 NGÀY 8 ĐÊM</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh13.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none"> TOUR BẮC ÂU : ĐAN MẠCH - NAUY -
+                        THỤY ĐIỂN - PHẦN LAN</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh14.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none">TOUR ĐÔNG ÂU: SÉC - ÁO - HUNGARY 9
+                        NGÀY 8 ĐÊM 14 người</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh15.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none">TOUR CHÂU ÂU: ĐỨC – HÀ LAN – BỈ –
+                        PHÁP 9 NGÀY 8 ĐÊM</a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-2"
+                 style=" background: #d2d2d2; padding: 5px;">
+                <div class="image-container">
+                    <img src="../images/anh16.jpg" alt="" width="100%" style="padding: 10px">
+
+                </div>
+
+                <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                    <a href="../noiDung/noiDung.html" style="text-decoration: none">ISTANBUL - ATHENS - SANTORINI –
+                        THÀNH TROY </a>
+                </h6>
+                <div class="price-buy"
+                     style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                    <span class="buy"><a href=""
+                                         style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                            class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>     Đặt tour</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    -->
+
+    <div class="feedback">
+        <h1 style="text-align: center; color: limegreen; font-weight: bold; margin: 20px 20px">Khách hàng nói gì về
+            chúng tôi</h1>
+        <div class="container">
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/feedback1.jpg" class="d-block w-100" alt="..." height="255"
+                             style="width: 300px!important">
+                        <div class="carousel-caption d-none d-md-block" style="color: black">
+                            <h5>Dang Van Si</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/feedback2.jpg" class="d-block w-100" alt="..." height="255"
+                             style="width: 300px!important">
+                        <div class="carousel-caption d-none d-md-block" style="color: black">
+                            <h5>Le Thu Phuong</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/feedback3.jpg" class="d-block w-100" alt="..." height="255"
+                             style="width: 300px!important">
+                        <div class="carousel-caption d-none d-md-block" style="color: black">
+                            <h5>Dang Le Minh Tu</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--    -->
+    <div class="container">
+        <div class="row" id="gan-cuoi" style="margin-top: 20px">
+            <div class="col-md-6" style="display: flex;  flex-wrap: wrap">
+                <div style="display: flex; flex-direction: column">
+                    <div>
+                        <h2 style="text-align: center">Tour nổi bật</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-6" style="padding: 10px;margin-top: 25px;margin-bottom: 20px">
+                            <div class="image-container">
+                                <img src="../images/anh2.jpg" alt="" width="100%" style="padding: 10px">
+
+                            </div>
+                            <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                                <a href="" style="text-decoration: none">HÀ NỘI - TUYÊN QUANG (2 Ngày/1 Đêm - Khởi hành
+                                    bằng Ô tô)</a>
+                            </h6>
+                            <div class="price-buy"
+                                 style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                                <span class="buy"><a href=""
+                                                     style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                                        class="fa fa-shopping-cart"
+                                        aria-hidden="true"></i>     Đặt tour</a></span>
+                            </div>
+                        </div>
+                        <div class="col-6" style="padding: 10px;margin-top: 25px;margin-bottom: 20px">
+                            <div class="image-container">
+                                <img src="../images/anh1.jpg" alt=""
+                                     width="100%"
+                                     style="padding: 10px">
+                            </div>
+
+
+                            <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                                <a href="" style="text-decoration: none">HÀ NỘI - CẦN THƠ VÀ TỈNH MIỀN TÂY ( 4 ngày 3
+                                    đêm)</a>
+                            </h6>
+                            <div class="price-buy"
+                                 style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                                <span class="buy"><a href=""
+                                                     style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                                        class="fa fa-shopping-cart"
+                                        aria-hidden="true"></i>     Đặt tour</a></span>
+                            </div>
+                        </div>
+                        <div class="col-6" style="padding: 10px;margin-top: 25px;margin-bottom: 20px">
+                            <div class="image-container">
+                                <img src="../images/anh16.jpg" alt="" width="100%" style="padding: 10px">
+
+                            </div>
+
+                            <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                                <a href="" style="text-decoration: none">ISTANBUL - ATHENS - SANTORINI – THÀNH TROY</a>
+                            </h6>
+                            <div class="price-buy"
+                                 style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                                <span class="buy"><a href=""
+                                                     style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                                        class="fa fa-shopping-cart"
+                                        aria-hidden="true"></i>     Đặt tour</a></span>
+                            </div>
+                        </div>
+                        <div class="col-6" style="padding: 10px;margin-top: 25px;margin-bottom: 20px">
+                            <div class="image-container">
+                                <img
+                                        src="../images/anh15.jpg" alt=""
+                                        width="100%"
+                                        style="padding: 10px">
+                            </div>
+                            
+
+                            <h6 style="color: limegreen; font-weight: bold ;text-align: center;font-size: 15px;margin-top: 5px;margin-bottom: 5px">
+                                <a href="" style="text-decoration: none">TOUR CHÂU ÂU: ĐỨC – HÀ LAN – BỈ – PHÁP 9 NGÀY 8
+                                    ĐÊM</a>
+                            </h6>
+                            <div class="price-buy"
+                                 style="display: flex; justify-content:space-between; padding: 5px; background: limegreen;border-radius: 3px">
+                    <span class="price"
+                          style=" color: white;border-radius: 3px; padding: 4px 3px;margin-top: 0"><a href=""
+                                                                                                      style="text-decoration: none; color: white">1.868.000 VND</a></span>
+                                <span class="buy"><a href=""
+                                                     style=" color: white; text-decoration: none; padding: 3px; border-radius: 3px;font-size: 19px"><i
+                                        class="fa fa-shopping-cart"
+                                        aria-hidden="true"></i>     Đặt tour</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6" id="nam">
+                <div id="formfk">
+                    <h2 style="text-align: center">Đăng ký tư vấn</h2>
+                    <form action="">
+                        <div class="row-group">
+                            <div>
+                                <p>Họ tên</p>
+                                <p><input type="text" placeholder="Họ tên" style="width: 100%;"></p>
+                            </div>
+                            <div>
+                                <p>Địa chỉ</p>
+                                <p><input type="text" placeholder="Địa chỉ" style="width: 100%;"></p>
+                            </div>
+                        </div>
+                        <div class="row-group">
+                            <div>
+                                <p>Email</p>
+                                <p><input type="text" placeholder="Email" style="width: 100%;"></p>
+                            </div>
+                            <div>
+                                <p>Số điện thoại</p>
+                                <p><input type="text" placeholder="Số điện thoại" style="width: 100%;"></p>
+                            </div>
+                        </div>
+                        <p>Thông tin thêm: </p>
+                        <textarea name="" id="" cols="25" rows="8"></textarea>
+                        <p><input type="submit" value="send"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    -->
+
+    <footer class="text-center text-lg-start bg-white text-muted"
+            style="background: transparent!important; border-top: 1px white solid">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class=" text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3 text-secondary"></i><img src="../images/logo.png" alt="">
+                        </h6>
+                        <p style="margin-bottom: 0">
+                            CÔNG TY TNHH THƯƠNG MẠI VÀ DU LỊCH CÔ SƠN NỮ
+                            Điện thoại: 0876523806 <br>
+                            Gmail: <a href="#">sidvph46507@fpt.edu.vn</a><br>
+                        </p>
+                        <p style="margin-bottom: 0">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            08765-23-806
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            sidvph46507@fpt.edu.vn
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Thanh toán
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">
+                                Hướng dẫn đạt tour
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Điều kiện giao dịch chung
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Phương thức thanh toán
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Đặt tour và giao dịch tour</a>
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Dịch vụ
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Dịch vụ nghỉ
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Dịch vụ ăn uống
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Cho thuê xe máy
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Du vụ theo yêu cầu</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Các loại tour
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Tour trong nước</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Tour nước ngoài</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Tour vùng cao</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Tour biển</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4"
+                            style="text-align: center; margin-bottom: 12px!important;">
+                            Hỗ trợ</h6>
+                        <input type="text" placeholder="  Email"
+                               style="margin: 0 10px 10px;width: 100%;height: 45px;border-radius: 5px;border: 1px solid #ccc">
+                        <button style="margin: 0 10px 10px; width: 100%; font-size: 20px; background: green;color: white;font-weight: bold;border:0;height: 45px;border-radius: 5px">
+                            SUBCRIBE <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+                        <p style="display: flex; justify-content: space-between; gap: 5px;margin-top: 10px;">
+                            <a href=""> <i class="fa fa-facebook-official" aria-hidden="true"
+                                           style="font-size: 40px"></i>
+                            </a>
+                            <a href="" style="color: dodgerblue">
+                                <i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 40px"></i>
+                            </a>
+                            <a href="" style="color: #01a801"> <i class="fa fa-google-plus-square" aria-hidden="true"
+                                                                  style="font-size: 40px"></i></a>
+                            <a href="" style="color: red"><i class="fa fa-youtube-square" aria-hidden="true"
+                                                             style="font-size: 40px"></i></a>
+                            <a href="" style="color: black">
+                                <i class="fa fa-git-square" aria-hidden="true" style="font-size: 40px"></i>
+                            </a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        <div class="text-center p-4"
+             style="background-color: rgba(0, 0, 0, 0.025);padding-top: 15px!important;padding-bottom: 15px!important;">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold" href="">isnav.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</div>
+<script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
